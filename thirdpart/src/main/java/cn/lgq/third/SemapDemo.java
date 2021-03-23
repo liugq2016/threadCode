@@ -26,7 +26,6 @@ public class SemapDemo implements Runnable{
     }
 
     public static void main(String[] args) {
-        Date
         ExecutorService exec = Executors.newFixedThreadPool(20);
         final SemapDemo demp = new SemapDemo();
         for (int i = 0;i<20;++i){
